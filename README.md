@@ -33,24 +33,6 @@ Sistema gráfico de gerenciamento de cidades e caminhos em Marte, desenvolvido c
 
 ---
 
-## 📁 Organização do Sistema
-
-- `Form1.cs`: Interface gráfica principal e lógica de manipulação da árvore e listas.
-- `Arvore<T>` e `NoArvore<T>`: Implementação genérica da ABB.
-- `Cidade.cs`: Classe com informações da cidade e lista de caminhos.
-- `CaminhoEntreCidadesMarte.cs`: Classe que representa uma conexão entre duas cidades.
-- `ListaSimples<T>`: Implementação de lista encadeada simples para os caminhos.
-- `Gravação/Leitura`: Métodos para exportação/importação em arquivos binários e JSON.
-
----
-
-## 🗂️ Exportação de Dados
-
-- **Cidades**: Exportadas para `Arvore.json`
-- **Caminhos**: Exportados para `Caminhos.json`
-- Os arquivos são salvos automaticamente ao fechar o formulário.
-
----
 
 ## ✅ Pré-requisitos
 
