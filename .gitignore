@@ -1,0 +1,139 @@
+# ##############################################################################
+# ## .gitignore Universal e Abrangente                                      ##
+# ##                                                                        ##
+# ## Instruções:                                                            ##
+# ## 1. Copie este conteúdo para um arquivo chamado .gitignore na raiz do   ##
+# ##    seu projeto.                                                        ##
+# ## 2. Revise o arquivo e descomente as seções relevantes para suas        ##
+# ##    tecnologias e ferramentas.                                          ##
+# ##############################################################################
+
+
+# ########## Arquivos de Sistema Operacional ##########
+# Ignora arquivos de metadados e miniaturas gerados pelos sistemas operacionais.
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+# ########## Arquivos de IDEs e Editores de Código ##########
+# Configurações pessoais que não devem ser compartilhadas com a equipe.
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+nbproject/
+.project
+.settings/
+*.tmproj
+
+
+# ########## Arquivos de Log, Cache e Temporários ##########
+# Arquivos que são gerados dinamicamente e não precisam ser versionados.
+*.log
+*.log.*
+logs/
+.cache/
+tmp/
+temp/
+
+
+
+# ########## Dependências e Pacotes ##########
+# Estes pacotes devem ser instalados pelos desenvolvedores usando um gerenciador
+# de pacotes (npm, pip, composer, etc.), e não armazenados no repositório.
+node_modules/
+vendor/
+jspm_packages/
+bower_components/
+
+
+# ########## Build e Arquivos Compilados ##########
+# Arquivos gerados a partir do seu código-fonte.
+build/
+dist/
+out/
+target/
+bin/
+obj/
+*.o
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+
+# ########## Arquivos Sensíveis e de Configuração Local ##########
+# NUNCA versione senhas, chaves de API ou segredos!
+# Use um arquivo .env.example para mostrar a estrutura necessária.
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+aws/credentials
+
+
+# ########## Bancos de Dados Locais ##########
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+
+# --- Seções Específicas por Linguagem/Framework ---
+# --- Descomente o que for relevante para o seu projeto ---
+
+# ########## Python ##########
+# __pycache__/
+# *.py[cod]
+# *.so
+# .Python
+# venv/
+# env/
+# *.egg-info/
+# .pytest_cache/
+# .mypy_cache/
+
+
+# ########## Node.js ##########
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# package-lock.json  # (Opcional: alguns times versionam, outros não)
+# pnpm-lock.yaml
+
+
+# ########## Java (Maven/Gradle) ##########
+# *.class
+# *.jar
+# *.war
+# *.ear
+# .gradle
+# hs_err_pid*
+
+
+# ########## .NET ##########
+# *.user
+# *.userosscache
+# *.suo
+# *.[Cc]ache
+# [Bb]in/
+# [Oo]bj/
+
+
+# ########## Terraform ##########
+# .terraform/
+# *.tfstate
+# *.tfstate.backup
+# .terraform.lock.hcl
