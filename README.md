@@ -58,9 +58,15 @@ Sistema gráfico de gerenciamento de cidades e caminhos em Marte, desenvolvido c
 
 ---
 
+## Licença
+
+Este projeto é distribuído sob a licença MIT.
 
 ## 👨‍💻 Autor
 
 Desenvolvido por Aldo Junio Souza Brandão & Leonardo Ribeiro Gonzaga de Lima.
+
+---
+
 
 
